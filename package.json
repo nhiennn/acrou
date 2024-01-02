@@ -1,10 +1,10 @@
 {
-  "name": "go2index-theme-acrou",
+  "name": "Drive",
   "version": "2.0.8",
   "g2index": "1.1.2",
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "build": "cross-env NODE_ENV=production vue-cli-service build",
     "lint": "vue-cli-service lint",
     "analyz": "npm_config_report=true npm run build",
     "i18n:report": "vue-cli-service i18n:report --src './src/**/*.?(js|vue)' --locales './src/locales/**/*.json'"
@@ -16,6 +16,7 @@
     "bulma-divider": "^0.2.0",
     "clipboard": "^2.0.6",
     "core-js": "^3.6.4",
+    "cross-env": "^7.0.3",
     "element-ui": "^2.13.1",
     "feb-alive": "^1.0.9",
     "flv.js": "^1.5.0",
@@ -27,8 +28,10 @@
     "marked": "^1.1.0",
     "node-sass": "^4.14.0",
     "nprogress": "^0.2.0",
+    "pdfobject": "^2.2.12",
     "plyr": "^3.6.2",
     "sass-loader": "^8.0.2",
+    "terser": "^5.26.0",
     "v-viewer": "^1.5.1",
     "vue": "^2.6.11",
     "vue-axios": "^2.1.5",

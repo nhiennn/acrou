@@ -1,12 +1,12 @@
 // =======Options START=======
 var authConfig = {
-  siteName: "GoIndex-theme-acrou", // 网站名称
+  siteName: "Drive", // 网站名称
   version: "1.1.2", // 程序版本
   theme: "acrou",
   // 强烈推荐使用自己的 client_id 和 client_secret
-  client_id: "202264815644.apps.googleusercontent.com",
-  client_secret: "X4Z3ca8xfWDb1Voo-F9a7ZxJ",
-  refresh_token: "", // 授权 token
+  client_id: "199166901933-5l25181289u82l6jmsj6f5qbt21estje.apps.googleusercontent.com", // Client id from Google Cloud Console
+  client_secret: "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",
+  refresh_token: "1//04eGstv7wHQ7QCgYIARAAGAQSNwF-L9IrG07Xd2NXtQ1UOVL3z-J7ioVUwskUNwFS0x8VNcfLrtj-qNETGHE4PhzBuMcG-4kQBUU", // Authorize token
   /**
    * 设置要显示的多个云端硬盘；按格式添加多个
    * [id]: 可以是 团队盘id、子文件夹id、或者"root"（代表个人盘根目录）；
@@ -65,7 +65,7 @@ var authConfig = {
 };
 
 var themeOptions = {
-  cdn: "https://cdn.jsdelivr.net/gh/Aicirou/goindex-theme-acrou",
+  cdn: "https://cdn.jsdelivr.net/gh/nhiennn/acrou",
   // 主题版本号
   version: "2.0.8",
   //可选默认系统语言:en/zh-chs/zh-cht

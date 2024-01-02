@@ -1,13 +1,12 @@
 <template>
   <div class="content g2-content">
-    <object :data="url" type="application/pdf" name="file.pdf">
-      <embed :src="url" type="application/pdf" />
-    </object>
+    <div id="pdf-viewer"></div>
   </div>
 </template>
 
 <script>
 import { decode64 } from "@utils/AcrouUtil";
+import pdfobject from 'pdfobject'
 export default {
   data: function() {
     return {};
@@ -20,7 +19,14 @@ export default {
       return ''
     }
   },
-  methods: {}
+  mounted() {
+    pdfobject.embed(this.url, '#pdf-viewer', {height: "100vh"})
+  },
+  methods: {
+    error: function(err) {
+      console.log(err);
+    }
+  }
 };
 </script>
 

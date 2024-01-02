@@ -1,4 +1,4 @@
-<template>
+  <template>
   <div class="content g2-content">
     <div v-if="options && options.api" class="video-content">
       <iframe

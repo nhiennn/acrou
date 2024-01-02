@@ -1,0 +1,61 @@
+{
+  "_name": "Vietnamese",
+  "languages": "Languages",
+  "index": "Home",
+  "folder": "Folder",
+  "notify": {
+    "title": "Thông báo"
+  },
+  "copy": {
+    "text": "Copy",
+    "success": "Copy xong",
+    "error": "Copy lỗi"
+  },
+  "list": {
+    "view": {
+      "gridMode": "Dạng lưới",
+      "listMode": "Dạng danh sách"
+    },
+    "auth": "Thư mục có mật khẩu, nhập mật khẩu",
+    "title": {
+      "file": "File",
+      "moditime": "Thời gian sửa đổi",
+      "size": "Kích cỡ",
+      "operation": "Hành động"
+    },
+    "loading": "Đang tải...",
+    "opt": {
+      "copy": "Copy link",
+      "newTab": "Mở ở tab mới",
+      "download": "Tải xuống"
+    },
+    "total": "Tổng cộng",
+    "item": "item"
+  },
+  "search": {
+    "placeholder": "Tìm kiếm ..."
+  },
+  "page": {
+    "video": {
+      "play": "Play",
+      "download": "Tải xuống",
+      "link": "Link tải xuống"
+    },
+    "text": {
+      "loading": "Đang tải ..."
+    }
+  },
+  "setting": {
+    "clear": {
+      "text": "Xóa cache",
+      "success": "Xóa cache thành công"
+    }
+  },
+  "checkVersion": {
+    "tips": "Có phiên bản mới, <a href='${url}'>Tại đây</a>"
+  },
+  "error": {
+    "shortcut_not_down": "Lối tắt không thể mở/tải xuống",
+    "401": "Lỗi xác thực, vui lòng đăng nhập"
+  }
+}
